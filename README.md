@@ -1,8 +1,8 @@
 # Update PHPMyAdmin
 
 This is a simple script that allows to auto-update your PHPMyAdmin
-installation. Go straight to [step 2](#2.-configure-autoupdate) if you
-already have the stable version of 
+installation. Go straight to [step 2](#2-configure-autoupdate) if you
+already have the stable version of PHPMyAdmin installed via git.
 
 ## 1. Install PHPMyAdmin from the git repository
 
