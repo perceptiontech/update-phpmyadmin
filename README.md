@@ -51,7 +51,7 @@ adding it to your crontab. For example, if you want to execute the
 script at 12:05 AM every day:
 
 ```
-5 12 * * * /path/to/python /path/to/script -p /path/to/phpmyadmin >/dev/null 2>&1
+5 0 * * * /path/to/python /path/to/script -p /path/to/phpmyadmin >/dev/null 2>&1
 ```
 
 That's it! Now, you will always have the latest stable version of
