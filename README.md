@@ -59,6 +59,10 @@ PHPMyAdmin. Take into account that this means that the installation
 will also be updated when new major versions are released, and it
 may require to reconfigure some things, if needed.
 
+In case you may want another branch because you PHP version is too old
+you can not update it, you can specify which branch you want to pull
+changes from. Check next section for further information.
+
 ## 3. Command reference
 
 ```bash
@@ -69,4 +73,9 @@ Command to pull changes from the STABLE branch of PHPMyAdmin
 optional arguments:
   -h, --help            show this help message and exit
   -p PATH, --path PATH  Absolute path where PHPMyAdmin is installed
+  -r REMOTE, --remote REMOTE
+                        Name of the remote
+  -b BRANCH, --branch BRANCH
+                        Branch to pull
+
 ```
