@@ -14,4 +14,4 @@ args = parser.parse_args()
 try:
     subprocess.call(['git', 'pull', '-q', args.remote, args.branch], cwd=args.path)
 except subprocess.CalledProcessError as e:
-    print e.output
+    print(e.output)
